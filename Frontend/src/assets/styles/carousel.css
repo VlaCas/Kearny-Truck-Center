@@ -1,0 +1,33 @@
+.swiper-button-prev {
+  color: #C9534F;
+  margin-left: 1rem;
+}
+.swiper-button-next {
+  color: #C9534F;
+  margin-right: 1rem;
+}
+.swiper-pagination-bullet-active {
+  background-color: #C9534F;
+}
+.swiper-container {
+  height: calc(100vh - 120px);
+  margin: 60px;
+}
+.swiper-slide {
+  overflow: hidden;
+}
+.slide-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+}
+.h1-carousel, .h2-carousel {
+  text-shadow:
+    1px 1px 2px #061a23c9,
+    0 0 1em #061a23c9,
+    0 0 0.2em #061a23c9;
+}
