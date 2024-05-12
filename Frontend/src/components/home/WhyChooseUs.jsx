@@ -1,7 +1,7 @@
-import Hexagon2Svg from "./svg/Hexagon2";
-import MaterialsSvg from "./svg/Materials";
-import PersonalSvg from "./svg/Personal";
-import CraneTruckSvg from "./svg/CraneTruck";
+import Hexagon2Svg from "../svg/Hexagon2";
+import MaterialsSvg from "../svg/Materials";
+import PersonalSvg from "../svg/Personal";
+import CraneTruckSvg from "../svg/CraneTruck";
 
 export default function WhyChooseUs() {
   return (

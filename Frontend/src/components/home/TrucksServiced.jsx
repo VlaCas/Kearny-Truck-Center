@@ -1,4 +1,4 @@
-import image5 from '../assets/images/image-5.jpg';
+import image5 from '../../assets/images/image-5.jpg';
 
 export default function TrucksServiced() {
   return (

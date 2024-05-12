@@ -1,6 +1,6 @@
-import image6 from '../assets/images/image-6.jpg';
-import image7 from '../assets/images/image-7.jpg';
-import image8 from '../assets/images/image-8.jpg';
+import image6 from '../../assets/images/image-6.jpg';
+import image7 from '../../assets/images/image-7.jpg';
+import image8 from '../../assets/images/image-8.jpg';
 
 export default function TrucksRepairServices() {
   return (

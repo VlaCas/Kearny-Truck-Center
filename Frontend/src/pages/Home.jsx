@@ -1,35 +1,19 @@
-import React, { useEffect, useState } from 'react';
 import Label from '../components/Label';
 import Nav from '../components/Nav';
-import Carousel from '../components/Carousel.jsx';
-import MakeContact from '../components/MakeContact';
-import WhyChooseUs from '../components/WhyChooseUs';
-import TrucksServiced from '../components/TrucksServiced';
-import TrucksRepairServices from '../components/TrucksRepairServices';
-import WhereWeAre from '../components/WhereWeAre';
+import WhereWeAre from '../components/home/WhereWeAre';
 import Footer from '../components/Footer';
 import Copyright from '../components/Copyright';
+import MakeContact from '../components/MakeContact';
+import Carousel from '../components/home/Carousel.jsx';
+import WhyChooseUs from '../components/home/WhyChooseUs';
+import TrucksServiced from '../components/home/TrucksServiced';
+import TrucksRepairServices from '../components/home/TrucksRepairServices';
 
-function Home() {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    function handleScroll() {
-      const scrolled = window.scrollY > 0;
-      setIsScrolled(scrolled);
-    }
-
-    window.addEventListener('scroll', handleScroll);
-    
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
+export default function Home() {
   return (
     <div className=' bg-[#fff] max-w-[1950px] m-auto overflow-x-hidden relative'>
-      <Label scroll={isScrolled}/>
-      <Nav scroll={isScrolled}/>
+      <Label />
+      <Nav />
       <section id='wrapper-carousel' className='relative w-full h-screen bg-black'>
         <Carousel />
       </section>
@@ -53,5 +37,3 @@ function Home() {
     </div>
   );
 };
-
-export default Home;
