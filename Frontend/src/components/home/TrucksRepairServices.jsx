@@ -5,8 +5,8 @@ import image8 from '../../assets/images/image-8.jpg';
 export default function TrucksRepairServices() {
   return (
     <>
-      <h2 className='text-3xl text-center after:w-20 after:bg-[#C9534F] after:h-[2px] after:block after:mx-auto after:mt-5 lg:text-4xl xl:text-5xl'>Auto Repair Services</h2>
-      <p className='leading-7 text-center mt-9 open-sans max-w-80 xm:max-w-96 md:max-w-[700px] md:px-14 lg:text-lg xl:max-w-[800px]'>We offer a full range of garage services to truck owners located in New Jersey area.  <br /> Our professinals know how to handle a wide range of truck services.</p>
+      <h2 className='text-3xl text-center after:w-20 after:bg-[#C9534F] after:h-[2px] after:block after:mx-auto after:mt-5 lg:text-4xl xl:text-5xl'>Heavy Duty Truck Repair Services</h2>
+      <p className='leading-7 text-center mt-9 open-sans max-w-80 xm:max-w-96 md:max-w-[700px] md:px-14 lg:text-lg xl:max-w-[800px]'>We offer a full range of garage services to Heavy Duty Truck owners located in New Jersey area.  <br /> Our professinals know how to handle a wide range of Heavy Duty Truck services.</p>
       <ul className='flex flex-wrap justify-center xm:justify-start xm:w-[462px] md:w-[750px] md:justify-center lg:w-[950px] xl:w-[1270px]'>
         <li className='mt-8 xm:w-[231px] md:w-[250px] lg:w-[316px] xl:w-[390px] '>
             <a href='services#engine-diagnostics' className='relative block h-[200px] w-[300px] bg-cover bg-center xm:w-[231px] xm:h-[154px] md:w-[250px] md:h-[166px] lg:w-[316px] lg:h-[220px] xl:w-[390px] xl:h-[260px] lg:hover:bg-opacity-50 lg:hover:cursor-pointer' style={{backgroundImage: `url(${image6})`}} >

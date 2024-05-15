@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className=' bg-[#fff] max-w-[1950px] m-auto overflow-x-hidden relative'>
       <Label />
-      <Nav />
+      <Nav page='home'/>
       <section id='wrapper-carousel' className='relative w-full h-screen bg-black'>
         <Carousel />
       </section>

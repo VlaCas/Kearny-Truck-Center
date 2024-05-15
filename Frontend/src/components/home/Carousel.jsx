@@ -42,7 +42,7 @@ export default function Carousel() {
   const slides = [
     { image: image, h1: 'Expert Technicians, Competitive Prices', h2: 'We are committed to earning your trust by providing the expertise and value you expect.',
   svg: <MaintenanceSvg /> },
-    { image: image2, h1: 'Exceptional Maintenance', h2: 'Rely on our expert care to keep your trailers in top condition for every haul.',
+    { image: image2, h1: 'Exceptional Maintenance', h2: 'Rely on our expert care to keep your commercial trailers in top condition for every haul.',
   svg: <TrailerSvg /> },
     { image: image3, h1: 'Find the Tires that Match your needs', h2: 'Take advantage of our lowest prices that automatically include the best quality.',
   svg: <TireSvg /> },
@@ -66,7 +66,7 @@ export default function Carousel() {
         slidesPerView={1}
       >
         {slides.map((slide, index) => (
-          <SwiperSlide key={index} className='swiper-slide' style={{height: '100vh'}}>
+          <SwiperSlide key={index} className='swiper-slide' style={{height: '100vh', minHeight: '800px'}}>
             <div className="slide-inner" style={{backgroundImage: `url(${slide.image})`}} data-swiper-parallax={deviceType} data-swiper-parallax-duration="" data-swiper-parallax-scale='1.20' data-swiper-parallax-opacity='0.25'></div>
             <div className="absolute h-[600px] -translate-x-1/2 -translate-y-1/2 w-[1000px] left-1/2 top-1/2">
               <div className={`flex flex-col items-center justify-center w-full h-full xs:gap-9 sm:gap-10 md:justify-evenly ${(window.innerWidth >= 1024 && window.innerHeight < 900) ? 'lg:justify-center lg:gap-5' : ''} ${(window.innerWidth >= 350 && window.innerHeight > 768) ? 'gap-12' : 'gap-4'}`}>
