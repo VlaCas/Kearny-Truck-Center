@@ -3,7 +3,7 @@ import { Navigation, Pagination, Parallax, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle';
 import '../../assets/styles/carousel.css';
-import image from '../../assets/images/image.jpg';
+import image from '../../assets/images/Image.jpg';
 import image2 from '../../assets/images/image-2.jpg';
 import image3 from '../../assets/images/image-3.jpg';
 import image4 from '../../assets/images/image-4.jpg';
