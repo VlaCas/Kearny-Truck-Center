@@ -1,0 +1,26 @@
+import ServicesComponent from './ServicesComponent'
+import image12 from '../../assets/images/image-12.jpg';
+import image13 from '../../assets/images/image-13.jpg';
+import image14 from '../../assets/images/image-14.jpg';
+import image15 from '../../assets/images/image-15.jpg';
+
+export default function ServicesSection(){
+  const services = [
+    {title: 'Engine Repair', description: 'Heavy duty truck engine repair service is essential to keeping your truck engine in top condition. At the auto shop, our highly trained technicians specialize in heavy-duty truck engine repair and maintenance, ensuring your truck runs efficiently and reliably. Includes a complete diagnosis, component repair, preventive maintenance and necessary adjustments.', reasons: [{title: 'Optimal performance: ', description: ' Ensures efficiency and meeting deadlines.'}, {title: 'Cost savings: ', description: ' Prevents major and costly damages.'}, {title: 'Safety: ', description: ' Reduces the risk of mechanical failures.'}, {title: 'Longevity: ', description: ' Extends the vehicle’s lifespan.'}, {title: 'Regulatory compliance: ', description: ' Helps meet environmental standards.'}], paragraph: 'Trust us to keep your engine running perfectly, ensuring your truck is always ready for the road.'},
+
+    {title: 'Brake Replacement', description: 'Our Brake Replacement service is essential for the safety and performance of your heavy duty truck. It includes a thorough inspection, replacement of brake components, and necessary adjustments. We use high-quality parts and advanced tools to ensure your braking system is reliable and efficient.', reasons: [{title: 'Enhanced safety: ', description: ' Ensures reliable braking and reduces accident risk.'}, {title: 'Improved performance: ', description: ' Maintains vehicle control and stopping power.'}, {title: 'Avoids downtime: ', description: ' Prevents unexpected brake failures and costly repairs.'}, {title: 'Prolongs lifespan: ', description: ' Extends the life of your braking system and other components.'}, {title: 'Compliance: ', description: ' Meets safety regulations and standards.'}], paragraph: 'Let us handle your brake replacement needs, providing top-notch service to keep your truck safe and dependable on the road.'},
+
+    {title: 'Aluminum Welding', description: 'Our Aluminum Welding service is essential for maintaining the integrity and safety of your commercial trailers. It includes repairing floors and internal parts by welding to patch damaged areas.', reasons: [{title: 'Enhanced durability: ', description: ' Strengthens and repairs damaged areas.'}, {title: 'Improved safety: ', description: ' Ensures structural integrity and reduces accident risk.'}, {title: 'Cost-effective: ', description: ' Prevents further damage and costly replacements.'}, {title: 'Compliance: ', description: ' Meets industry safety standards.'}, {title: 'Aesthetic improvement: ', description: ' Restores appearance and functionality.'}], paragraph: 'Trust us to handle your aluminum welding needs, ensuring your commercial trailers stay safe, reliable, and in top condition.'},
+
+    {title: 'Trailer Axle Repair', description: 'Our Trailer Axle Repair service is essential for maintaining the safety and performance of your commercial trailers. It includes thorough inspections, repairs, and adjustments of axle components to ensure optimal functionality.', reasons: [{title: 'Safety assurance: ', description: ' Guarantees reliable and secure trailer operation on the road.'}, {title: 'Optimized performance: ', description: ' Preserves proper alignment and weight distribution for efficient hauling.'}, {title: 'Cost-effective maintenance: ', description: ' Prevents major breakdowns and costly replacements down the line.'}, {title: 'Extended trailer lifespan: ', description: " Promotes durability and resilience, prolonging the trailer's overall usability."}, {title: 'Regulatory compliance: ', description: ' Meets stringent industry standards, ensuring legal and safe operation.'}], paragraph: 'Count on us to address your trailer axle repair needs with expertise, ensuring your commercial trailers remain safe, reliable, and ready for the journey ahead.'},
+  ]
+
+  return (
+    <>
+      <ServicesComponent image={image12} description={services[0].description} id={'engine-repair'} title={services[0].title} reasons={services[0].reasons} paragraph={services[0].paragraph} />
+      <ServicesComponent image={image13} rowReverse={true} description={services[1].description} title={services[1].title} reasons={services[1].reasons} paragraph={services[1].paragraph} backgroundColor={true} />
+      <ServicesComponent image={image14} description={services[2].description} title={services[2].title} reasons={services[2].reasons} paragraph={services[2].paragraph} />
+      <ServicesComponent image={image15} rowReverse={true} description={services[3].description} title={services[3].title} reasons={services[3].reasons} paragraph={services[3].paragraph} backgroundColor={true} />
+    </>
+  )
+}

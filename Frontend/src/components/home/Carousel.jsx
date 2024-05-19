@@ -51,7 +51,7 @@ export default function Carousel() {
   ];
 
   return (
-    <div id='carousel-wrapper' className='relative w-full h-full overflow-hidden'>
+    <div id='carousel-wrapper' className='relative w-full h-full overflow-hidden min-h-[650px]'>
       <Swiper
         modules={[Navigation, Pagination, Parallax, Autoplay]}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
@@ -66,7 +66,7 @@ export default function Carousel() {
         slidesPerView={1}
       >
         {slides.map((slide, index) => (
-          <SwiperSlide key={index} className='swiper-slide' style={{height: '100vh', minHeight: '800px'}}>
+          <SwiperSlide key={index} className='swiper-slide' style={{height: '100vh', minHeight: '650px'}}>
             <div className="slide-inner" style={{backgroundImage: `url(${slide.image})`}} data-swiper-parallax={deviceType} data-swiper-parallax-duration="" data-swiper-parallax-scale='1.20' data-swiper-parallax-opacity='0.25'></div>
             <div className="absolute h-[600px] -translate-x-1/2 -translate-y-1/2 w-[1000px] left-1/2 top-1/2">
               <div className={`flex flex-col items-center justify-center w-full h-full xs:gap-9 sm:gap-10 md:justify-evenly ${(window.innerWidth >= 1024 && window.innerHeight < 900) ? 'lg:justify-center lg:gap-5' : ''} ${(window.innerWidth >= 350 && window.innerHeight > 768) ? 'gap-12' : 'gap-4'}`}>

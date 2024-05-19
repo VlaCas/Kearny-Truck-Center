@@ -50,7 +50,7 @@ export default function Footer(){
           <div className="mx-2 mt-8 md:w-[47%] xl:w-1/5">
             <h6 className="text-white text-sm open-sans after:w-9 after:bg-[#C9534F] after:h-[2px] after:block after:mt-3">QUICK LINKS</h6>
             <ul className="mt-5">
-              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="">Home</a></li>
+              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="/">Home</a></li>
               <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services">Services</a></li>
               <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="about-us">About us</a></li>
               <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="contact-us">Contact us</a></li>

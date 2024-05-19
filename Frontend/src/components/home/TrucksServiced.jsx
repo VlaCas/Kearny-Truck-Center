@@ -38,7 +38,7 @@ export default function TrucksServiced() {
 				</div>
         <div className='flex justify-center'>
           <button className="bg-[#C9534F] py-4 px-6 rounded-full transition-all lg:hover:bg-[#892d2a] open-sans text-white mt-12">
-              <a href="about-us" className="font-semibold open-sans">VIEW FULL LIST</a>
+              <a href="services" className="font-semibold open-sans">VIEW FULL LIST</a>
           </button>
         </div>
       </div>
