@@ -1,6 +1,6 @@
 import image6 from '../../assets/images/image-6.jpg';
 import image7 from '../../assets/images/image-7.jpg';
-import image8 from '../../assets/images/image-8.jpg';
+import image19 from '../../assets/images/image-19.jpg';
 
 export default function TrucksRepairServices() {
   return (
@@ -13,7 +13,7 @@ export default function TrucksRepairServices() {
               <span className='absolute w-full h-full bg-[rgba(255,255,255,0.0)] lg:hover:bg-[rgba(255,255,255,0.3)] transition-all'></span>
             </a>
             <h4 className='bg-[#f1e6da] py-2 px-4 xl:py-4 xl:px-6 hover:text-opacity-30'>  
-              <a href='services#engine-repair' className='flex items-center justify-between text-sm font-semibold open-sans xl:text-lg lg:hover:text-[rgba(0,0,0,0.3)] transition-all'>ENGINE DIAGNOSTICS<span className='text-2xl text-[#C9534F] float-right open-sans after:font-bold after:content-[">"] xl:text-4xl lg:hover:text-[rgba(201,83,79,0.59)] transition-all'></span></a>
+              <a href='services#engine-repair' className='flex items-center justify-between text-sm font-semibold open-sans xl:text-lg lg:hover:text-[rgba(0,0,0,0.3)] transition-all'>ENGINE REPAIR<span className='text-2xl text-[#C9534F] float-right open-sans after:font-bold after:content-[">"] xl:text-4xl lg:hover:text-[rgba(201,83,79,0.59)] transition-all'></span></a>
             </h4>
 				</li>
         <li className='mt-8 xm:w-[231px] md:w-[250px] lg:w-[316px] xl:w-[390px]'>
@@ -25,11 +25,11 @@ export default function TrucksRepairServices() {
             </h4>
 				</li>
         <li className='mt-8 xm:w-[231px] md:w-[250px] lg:w-[316px] xl:w-[390px]'>
-            <a href='services#belts-hoses' className='relative block h-[200px] w-[300px] bg-cover bg-center xm:w-[231px] xm:h-[154px] md:w-[250px] md:h-[166px] lg:w-[316px] lg:h-[220px] xl:w-[390px] xl:h-[260px] lg:hover:bg-opacity-20 lg:hover:cursor-pointer ' style={{backgroundImage: `url(${image8})`}} >
+            <a href='services#transmission-repair' className='relative block h-[200px] w-[300px] bg-cover bg-center xm:w-[231px] xm:h-[154px] md:w-[250px] md:h-[166px] lg:w-[316px] lg:h-[220px] xl:w-[390px] xl:h-[260px] lg:hover:bg-opacity-20 lg:hover:cursor-pointer ' style={{backgroundImage: `url(${image19})`}} >
               <span className='absolute w-full h-full bg-[rgba(255,255,255,0.0)] lg:hover:bg-[rgba(255,255,255,0.3)] transition-all'></span>
             </a>
             <h4 className='bg-[#f1e6da] py-2 px-4 xl:py-4 xl:px-6'>  
-              <a href='services#belts-hoses' className='flex items-center justify-between text-sm font-semibold open-sans xl:text-lg lg:hover:text-[rgba(0,0,0,0.3)] transition-all'>BELTS AND HOSES <span className='text-2xl text-[#C9534F] float-right open-sans after:font-bold after:content-[">"] xl:text-4xl lg:hover:text-[rgba(201,83,79,0.59)] transition-all'></span></a>
+              <a href='services#transmission-repair' className='flex items-center justify-between text-sm font-semibold open-sans xl:text-lg lg:hover:text-[rgba(0,0,0,0.3)] transition-all'>TRANSMISSIONS REPAIR<span className='text-2xl text-[#C9534F] float-right open-sans after:font-bold after:content-[">"] xl:text-4xl lg:hover:text-[rgba(201,83,79,0.59)] transition-all'></span></a>
             </h4>
 				</li>
       </ul>

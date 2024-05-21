@@ -42,10 +42,10 @@ export default function ServicesSection(){
       <ServicesComponent image={image13} rowReverse={true} description={services[1].description} title={services[1].title} reasons={services[1].reasons} paragraph={services[1].paragraph} backgroundColor={true} />
       <ServicesComponent image={image14} description={services[2].description} title={services[2].title} reasons={services[2].reasons} paragraph={services[2].paragraph} />
       <ServicesComponent image={image15} rowReverse={true} description={services[3].description} title={services[3].title} reasons={services[3].reasons} paragraph={services[3].paragraph} backgroundColor={true} />
-      <ServicesComponent image={image7} description={services[4].description} title={services[4].title} reasons={services[4].reasons} paragraph={services[4].paragraph} />
+      <ServicesComponent image={image7} description={services[4].description} title={services[4].title} reasons={services[4].reasons} paragraph={services[4].paragraph} id={'lube-oil-filters'} />
       <ServicesComponent image={image17} rowReverse={true} description={services[5].description} title={services[5].title} reasons={services[5].reasons} paragraph={services[5].paragraph} backgroundColor={true} />
       <ServicesComponent image={image18} description={services[6].description} title={services[6].title} reasons={services[6].reasons} paragraph={services[6].paragraph} />
-      <ServicesComponent image={image19} rowReverse={true} description={services[7].description} title={services[7].title} reasons={services[7].reasons} paragraph={services[7].paragraph} backgroundColor={true} />
+      <ServicesComponent image={image19} rowReverse={true} description={services[7].description} title={services[7].title} reasons={services[7].reasons} paragraph={services[7].paragraph} backgroundColor={true} id={'transmission-repair'} />
       <ServicesComponent image={image20} description={services[8].description} title={services[8].title} reasons={services[8].reasons} paragraph={services[8].paragraph} />
       <ServicesComponent image={image21} rowReverse={true} description={services[9].description} title={services[9].title} reasons={services[9].reasons} paragraph={services[9].paragraph} backgroundColor={true} />
       <ServicesComponent image={image22} description={services[10].description} title={services[10].title} reasons={services[10].reasons} paragraph={services[10].paragraph} />
