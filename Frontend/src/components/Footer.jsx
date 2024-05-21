@@ -19,7 +19,7 @@ export default function Footer(){
               <ul className="">
                 <li className="flex items-start pt-3">
                   <TelephoneSvg />
-                  <p className="pb-3 ml-4 text-xl text-white open-sans">Feel Free to Call Us Now: <br /> (201) 305-9763</p>
+                  <p className="pb-3 ml-4 text-xl text-white open-sans">Feel Free to Call Us Now: <br /> (201) 772 5278</p>
                 </li>
               </ul>
             </div>
