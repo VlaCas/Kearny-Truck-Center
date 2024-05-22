@@ -9,7 +9,7 @@ export default function FirstSection() {
           <AboutUsSvg />
         </HexagonSvg>
         <h1 className="text-4xl text-center text-white xm:text-5xl sm:text-6xl" style={{ textShadow: '1px 1px 2px #000000, 0 0 1em #000000, 0 0 0.2em #000000' }}>About Us</h1>
-        <h3 className="text-sm font-semibold text-center text-white open-sans sm:text-base lg:font-light lg:text-xl" style={{ textShadow: '1px 1px 2px #000000, 0 0 1em #000000, 0 0 0.2em #000000' }}>For 15 years, <span className="font-bold open-sans">Kearny Truck Center</span> has been a cornerstone in the New Jersey community, delivering top-notch service for <span className="font-bold open-sans">Heavy Duty Truck</span> and <span className="font-bold open-sans">Commercial Trailer</span>. Our skilled mechanics are dedicated to keeping trucks in peak condition, ensuring the safety and efficiency of our local truckers.</h3>
+        <h3 className="text-sm font-semibold text-center text-white open-sans sm:text-base lg:font-light lg:text-xl" style={{ textShadow: '1px 1px 2px #000000, 0 0 1em #000000, 0 0 0.2em #000000' }}>For 8 years, <span className="font-bold open-sans">Kearny Truck Center</span> has been a cornerstone in the New Jersey community, delivering top-notch service for <span className="font-bold open-sans">Heavy Duty Truck</span> and <span className="font-bold open-sans">Commercial Trailer</span>. Our skilled mechanics are dedicated to keeping trucks in peak condition, ensuring the safety and efficiency of our local truckers.</h3>
       </div>
     </div>
   )

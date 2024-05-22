@@ -2,7 +2,7 @@ import image6 from '../../assets/images/image-6.jpg';
 import image7 from '../../assets/images/image-7.jpg';
 import image19 from '../../assets/images/image-19.jpg';
 
-export default function TrucksRepairServices() {
+export default function TrucksRepairServices({ H4BgColor }) {
   return (
     <>
       <h2 className='text-3xl text-center after:w-20 after:bg-[#C9534F] after:h-[2px] after:block after:mx-auto after:mt-5 lg:text-4xl xl:text-5xl'>Heavy Duty Truck Repair Services</h2>
@@ -12,7 +12,7 @@ export default function TrucksRepairServices() {
             <a href='services#engine-repair' className='relative block h-[200px] w-[300px] bg-cover bg-center xm:w-[231px] xm:h-[154px] md:w-[250px] md:h-[166px] lg:w-[316px] lg:h-[220px] xl:w-[390px] xl:h-[260px] lg:hover:bg-opacity-50 lg:hover:cursor-pointer' style={{backgroundImage: `url(${image6})`}} >
               <span className='absolute w-full h-full bg-[rgba(255,255,255,0.0)] lg:hover:bg-[rgba(255,255,255,0.3)] transition-all'></span>
             </a>
-            <h4 className='bg-[#f1e6da] py-2 px-4 xl:py-4 xl:px-6 hover:text-opacity-30'>  
+            <h4 className={`${!H4BgColor ? 'bg-[#f1e6da]' : H4BgColor} py-2 px-4 xl:py-4 xl:px-6 hover:text-opacity-30`}>  
               <a href='services#engine-repair' className='flex items-center justify-between text-sm font-semibold open-sans xl:text-lg lg:hover:text-[rgba(0,0,0,0.3)] transition-all'>ENGINE REPAIR<span className='text-2xl text-[#C9534F] float-right open-sans after:font-bold after:content-[">"] xl:text-4xl lg:hover:text-[rgba(201,83,79,0.59)] transition-all'></span></a>
             </h4>
 				</li>
@@ -20,7 +20,7 @@ export default function TrucksRepairServices() {
             <a href='services#lube-oil-filters' className='relative block h-[200px] w-[300px] bg-cover bg-center xm:w-[231px] xm:h-[154px] md:w-[250px] md:h-[166px] lg:w-[316px] lg:h-[220px] xl:w-[390px] xl:h-[260px] lg:hover:bg-opacity-20 lg:hover:cursor-pointer ' style={{backgroundImage: `url(${image7})`}} >
               <span className='absolute w-full h-full bg-[rgba(255,255,255,0.0)] lg:hover:bg-[rgba(255,255,255,0.3)] transition-all'></span>
             </a>
-            <h4 className='bg-[#f1e6da] py-2 px-4 xl:py-4 xl:px-6'>  
+            <h4 className={`${!H4BgColor ? 'bg-[#f1e6da]' : H4BgColor} py-2 px-4 xl:py-4 xl:px-6 hover:text-opacity-30`}>  
               <a href='services#lube-oil-filters' className='flex items-center justify-between text-sm font-semibold open-sans xl:text-lg lg:hover:text-[rgba(0,0,0,0.3)] transition-all'>LUBE, OIL AND FILTERS <span className='text-2xl text-[#C9534F] float-right open-sans after:font-bold after:content-[">"] xl:text-4xl lg:hover:text-[rgba(201,83,79,0.59)] transition-all'></span></a>
             </h4>
 				</li>
@@ -28,7 +28,7 @@ export default function TrucksRepairServices() {
             <a href='services#transmission-repair' className='relative block h-[200px] w-[300px] bg-cover bg-center xm:w-[231px] xm:h-[154px] md:w-[250px] md:h-[166px] lg:w-[316px] lg:h-[220px] xl:w-[390px] xl:h-[260px] lg:hover:bg-opacity-20 lg:hover:cursor-pointer ' style={{backgroundImage: `url(${image19})`}} >
               <span className='absolute w-full h-full bg-[rgba(255,255,255,0.0)] lg:hover:bg-[rgba(255,255,255,0.3)] transition-all'></span>
             </a>
-            <h4 className='bg-[#f1e6da] py-2 px-4 xl:py-4 xl:px-6'>  
+            <h4 className={`${!H4BgColor ? 'bg-[#f1e6da]' : H4BgColor} py-2 px-4 xl:py-4 xl:px-6 hover:text-opacity-30`}>  
               <a href='services#transmission-repair' className='flex items-center justify-between text-sm font-semibold open-sans xl:text-lg lg:hover:text-[rgba(0,0,0,0.3)] transition-all'>TRANSMISSIONS REPAIR<span className='text-2xl text-[#C9534F] float-right open-sans after:font-bold after:content-[">"] xl:text-4xl lg:hover:text-[rgba(201,83,79,0.59)] transition-all'></span></a>
             </h4>
 				</li>

@@ -9,7 +9,7 @@ export default function TrucksServiced() {
       <div className="flex flex-col justify-between px-4 py-8 xm:w-full md:w-1/2">
         <div className="flex flex-col items-center">
           <h2 className="text-3xl text-center after:w-20 after:bg-[#C9534F] after:h-[2px] after:block after:mx-auto after:mt-5 md:text-4xl xl:text-5xl">Heavy Duty Trucks Serviced</h2>
-          <p className=" text-center mt-9 open-sans leading-7 xs:max-w-[560px] md:px-14 lg:text-lg  ">We provide top notch maintenance service for all types of Trucks. <br /> We are certified to service and repair the following makes:</p>
+          <p className="text-center mt-9 open-sans leading-7 xs:max-w-[560px] md:px-14 lg:text-lg">We provide top notch maintenance service for all types of Trucks. <br /> We are certified to service and repair the following makes:</p>
         </div>
         <div className="flex flex-wrap justify-start w-auto gap-6 mx-auto mt-8 xm:flex-nowrap xm:justify-center xl:w-full">
           <div className="w-2/5 xm:w-1/4">
