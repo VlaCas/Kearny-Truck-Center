@@ -11,7 +11,7 @@ export default function Footer(){
               <ul className="">
                 <li className='flex items-start pt-3'>
                   <LocationSvg />
-                  <p className="pb-3 ml-4 text-xl text-white open-sans">New Jersey, NJ 07032: <br /> 1000 Belleville Turnpike, Kearny</p>
+                  <a href="https://www.google.com/maps/place/KEARNY+TRUCK+CENTER+LLC/@40.7491722,-74.104323,15z/data=!4m2!3m1!1s0x0:0xf4b457f90a6ab251?sa=X&ved=1t:2428&ictx=111" className="pb-3 ml-4 text-xl text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer">New Jersey, NJ 07032: <br /> 1000 Belleville Turnpike, Kearny</a>
                 </li>
               </ul>
             </div>
@@ -19,7 +19,7 @@ export default function Footer(){
               <ul className="">
                 <li className="flex items-start pt-3">
                   <TelephoneSvg />
-                  <p className="pb-3 ml-4 text-xl text-white open-sans">Feel Free to Call Us Now: <br /> (201) 772 5278</p>
+                  <a href="tel:+12017725278" className="pb-3 ml-4 text-xl text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer">Feel Free to Call Us Now: <br /> (201) 772 5278</a>
                 </li>
               </ul>
             </div>
