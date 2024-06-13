@@ -6,14 +6,13 @@ export default function ContactForm() {
   const {register, handleSubmit, reset, formState: { errors }} = methods;
   
   const onSubmit = handleSubmit(async (data) => {
-    // console.log(data);
-    // try {
-    //   const response = await axios.post("http://localhost:7117/api/sendEmail", data);
-    //   console.log(response.data.message);
-    //   reset();
-    // } catch (error) {
-    //   console.error(error)
-    // }
+    console.log(data);
+    try {
+      const response = await axios.post("https://kearny-truck-center.onrender.com/api/sendEmail", data);
+      console.log(response.data.message);
+    } catch (error) {
+      console.error(error)
+    }
     reset();
   });
   
