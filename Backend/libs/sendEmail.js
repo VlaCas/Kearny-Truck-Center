@@ -14,7 +14,7 @@ export const sendEmail = (data) => {
     }
   });
 
-  const message = `${data.name} ${data.email} ${data.address} ${data.phoneNumber} ${data.note}`;
+  const message = `Name: ${data.name}\nEmail: ${data.email}\n Address: ${data.address}\n Phone Number: ${data.phoneNumber}\n Note: ${data.note}`;
 
   // Define options for our email.
   const mailOptions = {
