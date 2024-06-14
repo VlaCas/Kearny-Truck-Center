@@ -16,17 +16,17 @@ export const sendEmail = (data) => {
 
   const message = `
   A new client has contacted us! These are your details:\n
-  Name: ${data.name}\n
-  Email: ${data.email}\n
-  Address: ${data.address}\n
-  Phone Number: ${data.phoneNumber}\n
+  Name: ${data.name}
+  Email: ${data.email}
+  Address: ${data.address}
+  Phone Number: ${data.phoneNumber}
   Note: ${data.note}  
   `;
 
   // Define options for our email.
   const mailOptions = {
     from: '"Kearny Truck Center - Website Notification" <kearnytruckcenterwebsite@gmail.com>', 
-    to: 'vladimircastillo.vc19@gmail.com',
+    to: data.email,
     subject: 'New contact with a client!',
     text: message
   };
