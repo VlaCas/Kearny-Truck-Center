@@ -14,7 +14,14 @@ export const sendEmail = (data) => {
     }
   });
 
-  const message = `Name: ${data.name}\nEmail: ${data.email}\nAddress: ${data.address}\nPhone Number: ${data.phoneNumber}\nNote: ${data.note}`;
+  const message = `
+  A new client has contacted us! These are your details:\n
+  Name: ${data.name}\n
+  Email: ${data.email}\n
+  Address: ${data.address}\n
+  Phone Number: ${data.phoneNumber}\n
+  Note: ${data.note}  
+  `;
 
   // Define options for our email.
   const mailOptions = {
