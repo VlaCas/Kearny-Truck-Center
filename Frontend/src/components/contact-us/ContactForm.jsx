@@ -35,7 +35,7 @@ export default function ContactForm() {
 
         <div className='md:w-5/12'>
           <label htmlFor="phoneNumber" className={`block font-medium mb-[-2px] text-[#C9534F] text-base sm:text-lg xl:text-2xl xl:mb-0`}>Phone Number <span className='text-[10px] text-sm'> (optional)</span></label>
-          <input id='phoneNumber' className= {`text-white  w-full open-sans bg-transparent border-b border-solid rounded-none focus:outline-none focus:border-b-[1px] focus:border-b-[solid] mb-6 placeholder:text-slate-500 xs:mb-8 xm:mb-10 xm:text-base xl:mb-12`} placeholder='123-456-7890' type="number" {...register('phoneNumber', { required: { value: false }, pattern: { value: /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/, message: 'The phone number must follow the format: 123-456-7890.'}})} />
+          <input id='phoneNumber' className= {`text-white  w-full open-sans bg-transparent border-b border-solid rounded-none focus:outline-none focus:border-b-[1px] focus:border-b-[solid] mb-6 placeholder:text-slate-500 xs:mb-8 xm:mb-10 xm:text-base xl:mb-12`} placeholder='(+XX)1234567890' type="tel" {...register('phoneNumber', { required: { value: false }, pattern: { value: /^\+\d{1,3}\d{4,14}$/, message: 'The phone number must follow the format: +XX1234567890'}})} />
           {(errors.phoneNumber && errors.phoneNumber.message) ? <span className='relative text-xs text-red-600 -top-6 open-sans xs:-top-8 xm:-top-10 sm:text-sm xl:-top-12 xl:font-medium'>{errors.phoneNumber.message}</span> : ''}
         </div>
         
