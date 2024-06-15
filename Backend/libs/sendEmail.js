@@ -26,7 +26,7 @@ export const sendEmail = (data) => {
   // Define options for our email.
   const mailOptions = {
     from: '"Kearny Truck Center - Website Notification" <kearnytruckcenterwebsite@gmail.com>', 
-    to: data.email,
+    to: 'kearnytruckcenter@gmail.com',
     subject: 'New contact with a client!',
     text: message
   };
