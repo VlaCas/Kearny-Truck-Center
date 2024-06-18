@@ -28,9 +28,9 @@ export default function Label() {
           <p className='text-[#C9534F] font-bold italic lg:text-xl xl:text-2xl'>Your Truck is our concern!</p>
         </div>
         <div className='flex items-center gap-6'>
-          <a title='contact telephone' href="tel:+12017725278" className='text-[#C9534F] cursor-pointer hover:text-[#c9534fd3] lg:text-xl xl:text-2xl'> ☎ Call us at: (201) 772-5278 </a>
+          <a href="tel:+12017725278" className='text-[#C9534F] cursor-pointer hover:text-[#c9534fd3] lg:text-xl xl:text-2xl'> ☎ Call us at: (201) 772-5278 </a>
           <button className='border-2 border-[#C9534F] py-1 px-2 text-[#C9534F] text-xs rounded-full hover:bg-[#C9534F] hover:text-white transition-all sm:px-4 sm:py-0 sm:text-lg md:text-xl md:px-4 md:py-2'>
-            <a title='contact telephone' href="tel:+12017725278">Get a Free Budget</a>
+            <a href="tel:+12017725278">Get a Free Budget</a>
           </button>
         </div>
       </div>
