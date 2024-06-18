@@ -11,7 +11,7 @@ export default function Footer(){
               <ul className="">
                 <li className='flex items-start pt-3'>
                   <LocationSvg />
-                  <a href="https://www.google.com/maps/place/KEARNY+TRUCK+CENTER+LLC/@40.7491722,-74.104323,15z/data=!4m2!3m1!1s0x0:0xf4b457f90a6ab251?sa=X&ved=1t:2428&ictx=111" className="pb-3 ml-4 text-xl text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer">New Jersey, NJ 07032: <br /> 1000 Belleville Turnpike, Kearny</a>
+                  <a href="https://www.google.com/maps/place/KEARNY+TRUCK+CENTER+LLC/@40.7491722,-74.104323,15z/data=!4m2!3m1!1s0x0:0xf4b457f90a6ab251?sa=X&ved=1t:2428&ictx=111" title="Google Maps" className="pb-3 ml-4 text-xl text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer">New Jersey, NJ 07032: <br /> 1000 Belleville Turnpike, Kearny</a>
                 </li>
               </ul>
             </div>
@@ -19,7 +19,7 @@ export default function Footer(){
               <ul className="">
                 <li className="flex items-start pt-3">
                   <TelephoneSvg />
-                  <a href="tel:+12017725278" className="pb-3 ml-4 text-xl text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer">Feel Free to Call Us Now: <br /> (201) 772 5278</a>
+                  <a href="tel:+12017725278" className="pb-3 ml-4 text-xl text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer" title="Contact Telephone">Feel Free to Call Us Now: <br /> (201) 772 5278</a>
                 </li>
               </ul>
             </div>
@@ -38,22 +38,22 @@ export default function Footer(){
           <div className="mx-2 mt-8 md:w-[47%] xl:w-1/4">
             <h6 className="text-white text-sm open-sans after:w-9 after:bg-[#C9534F] after:h-[2px] after:block after:mt-3">OUR SERVICES</h6>
             <ul className="mt-5">
-              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services#engine-diagnostics">Engine Diagnostics</a></li>
-              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services#lube-oil-filters">Lube, Oil and Filters</a></li>
-              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services#belts-hoses">Belts and Hoses</a></li>
-              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services#air-conditioning">Air Conditioning</a></li>
-              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services#brake-repair">Brake Repair</a></li>
-              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services#tire-wheel-services">Tire and Wheel Services</a></li>
-              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services">Other Heavy Duty Truck Services</a></li>
+              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Engine Diagnostics' href="services#engine-diagnostics">Engine Diagnostics</a></li>
+              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Lube, Oil and Filters' href="services#lube-oil-filters">Lube, Oil and Filters</a></li>
+              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Belts and Hoses' href="services#belts-hoses">Belts and Hoses</a></li>
+              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Air Conditioning' href="services#air-conditioning">Air Conditioning</a></li>
+              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Brake Repair' href="services#brake-repair">Brake Repair</a></li>
+              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Tire and Wheel Services' href="services#tire-wheel-services">Tire and Wheel Services</a></li>
+              <li className="text-white open-sans before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['✓'] before:w-8 text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Other Heavy Duty Truck Services' href="services">Other Heavy Duty Truck Services</a></li>
             </ul>
           </div>
           <div className="mx-2 mt-8 md:w-[47%] xl:w-1/5">
             <h6 className="text-white text-sm open-sans after:w-9 after:bg-[#C9534F] after:h-[2px] after:block after:mt-3">QUICK LINKS</h6>
             <ul className="mt-5">
-              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="/">Home</a></li>
-              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="services">Services</a></li>
-              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="about-us">About us</a></li>
-              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' href="contact-us">Contact us</a></li>
+              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Home' href="/">Home</a></li>
+              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Services' href="services">Services</a></li>
+              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='About us' href="about-us">About us</a></li>
+              <li className="before:pr-4 before:-ml-[30px] pl-[30px] before:text-lg before:align-text-top before:text-[#C9534F] before:content-['»'] before:w-8 flex items-center text-sm"><a className='text-white open-sans xl:hover:text-slate-300 xl:hover:cursor-pointer' title='Contact us' href="contact-us">Contact us</a></li>
             </ul>
           </div>
           <div className="w-full mx-2 mt-8 md:w-2/5 xl:w-1/4">
