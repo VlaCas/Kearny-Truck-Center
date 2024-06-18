@@ -75,7 +75,7 @@ export default function Carousel() {
                 </HexagonSvg>
                 <h1 className='text-xl text-center text-white px-[23rem] xs:text-2xl xs:px-[19rem] sm:text-3xl sm:px-0 md:text-4xl lg:text-5xl xl:text-6xl h1-carousel'>{slide.h1}</h1>
                 <h2 className='font-sans text-xs font-normal text-center text-white px-[23rem] open-sans xs:text-xs xs:font-light xs:px-80 sm:text-sm sm:px-72 md:text-base md:px-56 lg:px-52 lg:text-lg xl:px-0 xl:text-xl h2-carousel'>{slide.h2}</h2>
-                <button className='rounded-full border-2 px-4 py-2 bg-[#061a23b9] hover:bg-[#061a23f3] transition-all xs:py-3 xs:px-5 sm:py-3 sm:px-5 lg:py-4 lg:px-6'><a title='about us' href="/about-us" className='text-xs font-normal text-white open-sans xs:text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl'>MORE INFORMATION</a></button>
+                <button className='rounded-full border-2 px-4 py-2 bg-[#061a23b9] hover:bg-[#061a23f3] transition-all xs:py-3 xs:px-5 sm:py-3 sm:px-5 lg:py-4 lg:px-6'><a href="about-us" title='Learn more about us' className='text-xs font-normal text-white open-sans xs:text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl'>MORE ABOUT US</a></button>
               </div>
             </div>
           </SwiperSlide>

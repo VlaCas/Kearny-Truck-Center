@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
       </div>
       <div className="flex justify-center">
         <button className="bg-[#C9534F] py-4 px-6 rounded-full transition-all lg:hover:bg-[#892d2a] open-sans text-white">
-          <a href="about-us" title="about us page" className="font-semibold open-sans">READ MORE</a>
+          <a href="about-us" title="Learn more about us" className="font-semibold open-sans">READ MORE REASONS</a>
         </button>
       </div>
     </>
